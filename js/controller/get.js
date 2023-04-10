@@ -11,7 +11,7 @@ function isiRow(value) {
             .replace("#TAMU#", value.biodata.nama)
             .replace("#NO_HP_TAMU#", value.biodata.phone_number)
             .replace("#JURUSAN#", value.prodi.jurusan)
-            .replace("#DATE_TIME#", value.datetime)
+            .replace("#DATETIME#", value.datetime)
             .replace("#WARNA#", getRandomColor())
             .replace(/#WARNALOGO#/g, getRandomColorName());
     addInner("iniTabel", content);
