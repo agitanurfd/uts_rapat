@@ -44,7 +44,7 @@ function isiRowJamRapat(value) {
 }
 function isiRowLokasi(value) {
     let content =
-        isiTabelLokasi.replace("#LOKASI#", value.lokasi)
+        isiTabelLokasi.replace("#NAMA#", value.nama)
             .replace("#ALAMAT#", value.alamat)
             .replace("#WARNA#", getRandomColor())
             .replace(/#WARNALOGO#/g, getRandomColorName());
