@@ -1,22 +1,22 @@
 import { addInner } from "https://bukulapak.github.io/element/process.js";
 import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/image/process.js";
-import { isiTabel, isiTabelJamRapat, isiTabelLokasi, isiTabelRuangan, isiTabelTamu, isiTabelUniversitas } from "../temp/tabel.js";
+import { isiTabel, TabelJamRapat, TabelLokasi, TabelRuangan, TabelTamu, TabelUniversitas } from "../temp/tabel.js";
 export function isiTablePresensi(results) {
     results.forEach(isiRow);
 }
-export function isiTabelJamRapat(results) {
+export function TabelJamRapat(results) {
     results.forEach(isiRowJamRapat);
 }
-export function isiTabelLokasi(results) {
+export function TabelLokasi(results) {
     results.forEach(isiRowLokasi);
 }
-export function isiTabelRuangan(results) {
+export function TabelRuangan(results) {
     results.forEach(isiRowRuangan);
 }
-export function isiTabelTamu(results) {
+export function TabelTamu(results) {
     results.forEach(isiRowTamu);
 }
-export function isiTabelUniversitas(results) {
+export function TabelUniversitas(results) {
     results.forEach(isiRowUniversitas);
 }
 
