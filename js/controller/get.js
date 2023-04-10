@@ -3,7 +3,7 @@ import { getRandomColor, getRandomColorName } from "https://bukulapak.github.io/
 import { isiTabel } from "../temp/tabel.js";
 export function isiTablePresensi(results) {
     results.forEach(isiRow);
-    console.log(results)
+    console.log(results);
 }
 function isiRow(value) {
     let content =
